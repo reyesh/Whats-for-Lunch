@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <comment/>
+        <compiled_snapshot display_value="">02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="get &amp; post lunch menu">769b2bc6dbe357003db2dfea5e9619de</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 20:22:00</sys_created_on>
+        <sys_id>ba9be30adbe357003db2dfea5e9619ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ba9be30adbe357003db2dfea5e9619ef</sys_update_name>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 20:22:00</sys_updated_on>
+        <ui_id>38ebc3fd-826c-42ce-abf2-c6f3433754eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ba9be30adbe357003db2dfea5e9619ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ba9be30adbe357003db2dfea5e9619ef</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 20:22:00</sys_created_on>
+        <sys_id>cb9be30adbe357003db2dfea5e9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 20:22:00</sys_updated_on>
+        <value>x_snc_nownotes_table</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ba9be30adbe357003db2dfea5e9619ef"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ba9be30adbe357003db2dfea5e9619ef</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 20:22:00</sys_created_on>
+        <sys_id>879be30adbe357003db2dfea5e9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 20:22:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ba9be30adbe357003db2dfea5e9619ef</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 20:22:00</sys_created_on>
+        <sys_id>4b9be30adbe357003db2dfea5e9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 20:22:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>note={{19173d91-f469-474c-a34b-eb98dd802e6e.menuhtmloutput}}</value>
+    </sys_element_mapping>
+</record_update>

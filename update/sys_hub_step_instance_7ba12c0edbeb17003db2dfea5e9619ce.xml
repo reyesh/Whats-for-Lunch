@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Build Resource Path (URL)">b7a12c0edbeb17003db2dfea5e9619cb</action>
+        <cid>9867cae6-63e3-4faf-959f-d336147301c4</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:39:46</sys_created_on>
+        <sys_id>7ba12c0edbeb17003db2dfea5e9619ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+        <sys_update_name>sys_hub_step_instance_7ba12c0edbeb17003db2dfea5e9619ce</sys_update_name>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:39:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ba12c0edbeb17003db2dfea5e9619ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ba12c0edbeb17003db2dfea5e9619ce</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:39:46</sys_created_on>
+        <sys_id>73a12c0edbeb17003db2dfea5e9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:39:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+var guckCode = "9G9UP3";
+var weekMonDate = "07-23-2018";
+var fileDay = "/$file/day1.htm";  
+  
+var finalRP = "/" + guckCode + "~" + weekMonDate + fileDay;
+
+outputs.finalRP = finalRP;  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+</record_update>

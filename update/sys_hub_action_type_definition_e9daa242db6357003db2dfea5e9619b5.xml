@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Lunch Actions">fe3e588adbeb17003db2dfea5e961903</category>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_incomingurl}}","label":"action➛incomingURL","type":"action","ref":""},{"name":"{{step[edadb744-64fc-4450-95f9-2fa638d22ee4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
+        <latest_snapshot display_value="HTTP fetch Menu v2">d59baa42db6357003db2dfea5e96199d</latest_snapshot>
+        <name>HTTP fetch Menu v2</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 15:39:00</sys_created_on>
+        <sys_id>e9daa242db6357003db2dfea5e9619b5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HTTP fetch Menu v2</sys_name>
+        <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e9daa242db6357003db2dfea5e9619b5</sys_update_name>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 15:42:17</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=e9daa242db6357003db2dfea5e9619b5"/>
+    <sys_element_mapping action="delete_multiple" query="id=e9daa242db6357003db2dfea5e9619b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>menuhtmloutput</field>
+        <id>e9daa242db6357003db2dfea5e9619b5</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 15:42:10</sys_created_on>
+        <sys_id>089baa42db6357003db2dfea5e961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 15:42:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e9daa242db6357003db2dfea5e9619b5</table>
+        <value>{{step[edadb744-64fc-4450-95f9-2fa638d22ee4].response_body}}</value>
+    </sys_element_mapping>
+</record_update>

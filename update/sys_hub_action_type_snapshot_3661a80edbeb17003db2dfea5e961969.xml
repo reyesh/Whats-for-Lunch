@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <annotation/>
+        <category display_value="Lunch Actions">fe3e588adbeb17003db2dfea5e961903</category>
+        <description/>
+        <label_cache>[{"name":"{{step[9867cae6-63e3-4faf-959f-d336147301c4].finalRP}}","label":"step➛Script step➛finalRP","type":"step","ref":""}]</label_cache>
+        <name>Build Resource Path (URL)</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Build Resource Path (URL)">824e188adbeb17003db2dfea5e961918</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:38:37</sys_created_on>
+        <sys_id>3661a80edbeb17003db2dfea5e961969</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Build Resource Path (URL)</sys_name>
+        <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_3661a80edbeb17003db2dfea5e961969</sys_update_name>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:38:37</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=3661a80edbeb17003db2dfea5e961969"/>
+    <sys_element_mapping action="delete_multiple" query="id=3661a80edbeb17003db2dfea5e961969"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resourcepath</field>
+        <id>3661a80edbeb17003db2dfea5e961969</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:38:37</sys_created_on>
+        <sys_id>3e61a80edbeb17003db2dfea5e96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:38:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3661a80edbeb17003db2dfea5e961969</table>
+        <value>{{step[9867cae6-63e3-4faf-959f-d336147301c4].finalRP}}</value>
+    </sys_element_mapping>
+</record_update>

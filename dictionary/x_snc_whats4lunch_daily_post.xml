@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Daily Post" max_length="40" name="x_snc_whats4lunch_daily_post" type="collection">
+        <element label="HTML blob" max_length="8000" name="html_blob" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_incomingurl" label="incomingURL" language="en" table="var__m_sys_hub_action_input_e9daa242db6357003db2dfea5e9619b5">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_incomingurl</element>
+            <help/>
+            <hint/>
+            <label>incomingURL</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e9daa242db6357003db2dfea5e9619b5</name>
+            <plural>incomingURL</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>reyes.h</sys_created_by>
+            <sys_created_on>2018-07-28 15:42:07</sys_created_on>
+            <sys_id>4b8b6a42db6357003db2dfea5e9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incomingURL</sys_name>
+            <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e9daa242db6357003db2dfea5e9619b5_ah_incomingurl_en</sys_update_name>
+            <sys_updated_by>reyes.h</sys_updated_by>
+            <sys_updated_on>2018-07-28 15:42:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

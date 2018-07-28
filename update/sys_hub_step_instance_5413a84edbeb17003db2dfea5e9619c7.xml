@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HTTP fetch Menu ">88f16c0edbeb17003db2dfea5e9619ed</action>
+        <cid>09ee2a99-fa86-4197-b8c3-55e60a1083e7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:45:49</sys_created_on>
+        <sys_id>5413a84edbeb17003db2dfea5e9619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+        <sys_update_name>sys_hub_step_instance_5413a84edbeb17003db2dfea5e9619c7</sys_update_name>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:45:49</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5413a84edbeb17003db2dfea5e9619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5413a84edbeb17003db2dfea5e9619c7</document_key>
+        <order>35</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:45:49</sys_created_on>
+        <sys_id>1413a84edbeb17003db2dfea5e9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:45:49</sys_updated_on>
+        <value>http://dining.guckenheimer.com/clients/servicenow/fss/fss.nsf/weeklyMenuLaunch/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5413a84edbeb17003db2dfea5e9619c7</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:45:49</sys_created_on>
+        <sys_id>5013a84edbeb17003db2dfea5e9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:45:49</sys_updated_on>
+        <value>fd72e04edbeb17003db2dfea5e96198f</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5413a84edbeb17003db2dfea5e9619c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>5413a84edbeb17003db2dfea5e9619c7</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:45:49</sys_created_on>
+        <sys_id>dc13a84edbeb17003db2dfea5e9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:45:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>5413a84edbeb17003db2dfea5e9619c7</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:45:49</sys_created_on>
+        <sys_id>5813a84edbeb17003db2dfea5e9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:45:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>5413a84edbeb17003db2dfea5e9619c7</id>
+        <sys_created_by>reyes.h</sys_created_by>
+        <sys_created_on>2018-07-28 05:45:49</sys_created_on>
+        <sys_id>1c13a84edbeb17003db2dfea5e9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>reyes.h</sys_updated_by>
+        <sys_updated_on>2018-07-28 05:45:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.ah_resourcepath}}</value>
+    </sys_element_mapping>
+</record_update>

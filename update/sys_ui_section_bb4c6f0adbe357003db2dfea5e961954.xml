@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="bb4c6f0adbe357003db2dfea5e961954" sys_domain="global" table="x_snc_whats4lunch_daily_post" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>reyes.h</sys_created_by>
+            <sys_created_on>2018-07-28 20:25:03</sys_created_on>
+            <sys_id>3b4c6f0adbe357003db2dfea5e96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_whats4lunch_daily_post" sys_domain="global" view="Default view">bb4c6f0adbe357003db2dfea5e961954</sys_ui_section>
+            <sys_updated_by>reyes.h</sys_updated_by>
+            <sys_updated_on>2018-07-28 20:25:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>html_blob</element>
+            <position>1</position>
+            <sys_created_by>reyes.h</sys_created_by>
+            <sys_created_on>2018-07-28 20:25:03</sys_created_on>
+            <sys_id>bf4c6f0adbe357003db2dfea5e96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_whats4lunch_daily_post" sys_domain="global" view="Default view">bb4c6f0adbe357003db2dfea5e961954</sys_ui_section>
+            <sys_updated_by>reyes.h</sys_updated_by>
+            <sys_updated_on>2018-07-28 20:25:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_whats4lunch_daily_post</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>reyes.h</sys_created_by>
+            <sys_created_on>2018-07-28 20:25:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb4c6f0adbe357003db2dfea5e961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_whats4lunch_daily_post</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="What's for Lunch?" source="x_snc_whats4lunch">329dd04adbeb17003db2dfea5e96196f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="What's for Lunch?">329dd04adbeb17003db2dfea5e96196f</sys_scope>
+            <sys_update_name>sys_ui_section_bb4c6f0adbe357003db2dfea5e961954</sys_update_name>
+            <sys_updated_by>reyes.h</sys_updated_by>
+            <sys_updated_on>2018-07-28 20:25:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
